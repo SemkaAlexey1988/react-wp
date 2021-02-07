@@ -1,0 +1,36 @@
+.to-top {
+display: block;
+position: fixed;
+z-index: 99;
+right: 20px;
+bottom: 50px;
+width: 40px;
+height: 40px;
+transform: rotate(-90deg);
+background: #399bc0;
+color: #FFF;
+border: 0;
+font-size: 24px;
+box-sizing: border-box;
+line-height: 40px;
+border-radius: 50%;
+border: 2px solid #FFF;
+cursor: pointer;
+}
+.to-top span {
+line-height: 24px;
+display: block;
+text-align: center;
+padding-bottom: 6px;
+font-weight: bold;
+transform: scaleX(0.7);
+padding-left: 2px;
+}
+
+.to-top.show {
+display: block;    
+}
+
+.to-top.hide {
+    display: none;    
+    }

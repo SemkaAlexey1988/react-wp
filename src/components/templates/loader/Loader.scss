@@ -1,0 +1,86 @@
+/* Loader */
+.loader, .loader:before, .loader:after {
+    border-radius: 50%;
+  }
+  
+  .loader {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    position: relative;
+    border-top: 4px solid red;
+    animation-name: loader;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: loader;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+  
+  }
+  .loader:before {
+    position: absolute;
+    content: '';
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    border-top: 4px solid #30c4f6;
+    animation-name: loader;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: loader;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+  }
+  .loader:after {
+    position: absolute;
+    content: '';
+    top: 24px;
+    bottom: 24px;
+    left: 24px;
+    right: 24px;
+    border-top: 4px solid #333333;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: loader;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+  }
+  
+  @-webkit-keyframes loader {
+    from{
+      transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes loader {
+    from{
+      transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  
+  .load-slider {
+    margin-bottom: 1500px;
+ }
+  
+/* loader */

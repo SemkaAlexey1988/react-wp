@@ -1,0 +1,24 @@
+.page-content {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin: 15px auto;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.breadcrumbs {
+    list-style-type: none;
+    font-size: 15px;
+}
+.breadcrumbs li {
+    display: inline-block;
+    vertical-align: top;
+}
+.breadcrumbs li a {
+    color: #666666;
+}    
+.breadcrumbs span {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px;
+}

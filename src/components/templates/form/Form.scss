@@ -1,0 +1,108 @@
+
+.contacts-form {
+max-width: 800px;  
+}
+.contacts-form .hidden {
+display: none;    
+}
+.contacts-form .show {
+    display: block;    
+    }
+.contacts-form h2 {  
+color: #666;
+text-transform: uppercase;
+text-align: center;
+margin: 10px auto;       
+} 
+
+.contacts-form form {
+display: flex;
+width: 100%;  
+flex-wrap: wrap;  
+align-items: flex-end;
+}
+.contacts-form form .form-group {
+flex-basis: 50%;
+padding: 0 10px;
+box-sizing: border-box;
+} 
+.contacts-form form .form-group.message-input {
+flex-basis: 100%;
+}
+.modal-block input {
+height: 30px;
+border-radius: 5px;
+}
+.react-time-picker {
+display: block;
+}    
+
+.contacts-form input {
+width: calc(100% - 20px);
+margin: 0 10px;
+margin-bottom: 20px;
+height: 30px;
+padding: 10px;	
+border-radius: 5px;
+border: 1px solid #666;
+}
+.contacts-form .react-time-picker {
+width: calc(100% - 20px);  
+margin: 0 10px; 
+margin-bottom: 20px; 
+}
+.contacts-form .react-time-picker input {
+border: 0px solid #666;
+}    
+.contacts-form .react-time-picker__wrapper {
+height: 50px; 
+border-radius: 5px;
+max-width: 185px;   
+}
+    
+.contacts-form textarea {
+width: calc(100% - 20px);
+margin: 0 10px;
+border-radius: 5px;
+margin-bottom: 20px;
+height: 80px;
+padding: 10px;
+border: 1px solid #666;	
+}
+.contacts-form button#send-message {
+width: 100%;
+max-width: 200px;
+margin: 10px auto;
+display: block;
+padding: 0;
+background: #399bc0;
+color: #FFF;
+font-size: 16px;
+border: 0;
+outline: 0;
+line-height: 50px;
+border-radius: 5px;
+} 
+.error-message {
+margin-left: 10px;
+line-height: 26px;
+font-size: 14px;
+color: red;
+}
+#success-send {
+text-align: center;
+font-size: 20px;
+line-height: 30px;
+color: green;
+margin-bottom: 10px;
+}
+
+
+@media screen and (min-width:300px) and (max-width:650px) {
+.contacts-form form .form-group {
+flex-basis: 100%;
+}     
+}    
+
+     
+
