@@ -8,7 +8,7 @@ import SliderMain from '../../containers/templates/slider/SliderMain';
 import ScrollAnimation from 'react-animate-on-scroll';
 import './MainWrap.scss';
 
-export default class ContactsWrap extends Component {
+export default class MainWrap extends Component {
 
     constructor() {
         super();
